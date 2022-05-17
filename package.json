@@ -1,0 +1,43 @@
+{
+    "name": "rest_api_express_typescript",
+    "version": "1.0.0",
+    "description": "Build a RESTful API with Node.js, Express & Typescript",
+    "main": "server.js",
+    "repository": "https://github.com/Giigauri/rest_api_express_typescript.git",
+    "author": "Davit Gigauri <1davit.gigauri@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon --config nodemon.json src/app.ts"
+    },
+    "devDependencies": {
+        "@types/bcrypt": "^5.0.0",
+        "@types/body-parser": "^1.19.2",
+        "@types/config": "^0.0.41",
+        "@types/cors": "^2.8.12",
+        "@types/express": "^4.17.13",
+        "@types/jsonwebtoken": "^8.5.8",
+        "@types/lodash": "^4.14.182",
+        "@types/mongoose": "^5.11.97",
+        "@types/nanoid": "^3.0.0",
+        "@types/node": "^17.0.34",
+        "@types/pino": "^7.0.5",
+        "@types/yup": "^0.29.14",
+        "nodemon": "^2.0.16",
+        "ts-node": "^10.7.0",
+        "typescript": "^4.6.4"
+    },
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "config": "^3.3.7",
+        "cors": "^2.8.5",
+        "dayjs": "^1.11.2",
+        "express": "^4.18.1",
+        "jsonwebtoken": "^8.5.1",
+        "ladash": "^1.2.0",
+        "mongoose": "^5.12.7",
+        "nanoid": "^3.3.4",
+        "pino": "^7.11.0",
+        "pino-pretty": "^7.6.1",
+        "yup": "^0.32.11"
+    }
+}
